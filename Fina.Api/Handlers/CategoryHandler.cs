@@ -11,6 +11,7 @@ namespace Fina.Api.Handlers
     {
         public async Task<Response<Category?>> CreateAsync(CreateCategoryRequest request)
         {
+            
             var category = new Category
             {
                 UserId = request.UserId,
